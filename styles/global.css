@@ -12,10 +12,16 @@
     --surface-color: #F5F5F5;
     --text-color-primary: #313131;
     --text-color-secondary: #6C6C6C;
+
+    --font-family-primary: 'Poppins', sans-serif;
+    --text-lg: bold 32px/125% var(--font-family-primary);
+    --text-md: 14px/175% var(--font-family-primary);
+    --text-sm: 12px/175% var(--font-family-primary);
+    --text: 16px/1.5 var(--font-family-primary);
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     background-color: var(--background-color);
     color: var(--text-color-primary);
 }
